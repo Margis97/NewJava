@@ -1,3 +1,4 @@
+package poolsystem;
 public class Ball {
 
     int x;
