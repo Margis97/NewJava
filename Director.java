@@ -1,15 +1,12 @@
-public class Director {
-    String firstname;
-    String lastname;
-    int salary;
+public class Director extends Employee {
+ 
 
     public Director(String firstname, String lastname, int salary) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.salary = salary;
+        super(firstname, lastname, salary, 0);
     }
 
-    public void printInformation(){
-        System.out.println(firstname + " " + lastname + " " + salary);
+    @Override
+    public void printInfo(){
+        System.out.println(firstname + " " + lastname + " " + getSalary());
     }
 }

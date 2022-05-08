@@ -1,17 +1,26 @@
-public class Employee {
-    String firstname;
-    String lastname;
-    int salary;
-    int id;
+public class Employee extends Person {
+  
+    private int salary;
+    
 
     public Employee(String firstname, String lastname, int salary, int id) {
-        this.firstname = firstname;
-        this.lastname = lastname;
+        super(firstname, lastname, id);
         this.salary = salary;
-        this.id = id;
+        
     }
 
-    public void printEmployeeInfo() {
+    public void printInfo() {
         System.out.println(id + " " + firstname + " " + lastname + " " + salary);
     }
+
+    public void setSalary(int salary) {
+        if (salary > 0) {
+            this.salary = salary;
+        }
+    }
+
+    public int getSalary() {
+        return salary;
+    }
+
 }
