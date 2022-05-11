@@ -1,3 +1,5 @@
+package banksysem;
+
 public class Client extends Person {
 
     public Client(String firstname, String lastname, int id) {

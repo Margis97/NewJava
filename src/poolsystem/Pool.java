@@ -1,3 +1,4 @@
+package poolsystem;
 public class Pool {
     double length;
     double width;
