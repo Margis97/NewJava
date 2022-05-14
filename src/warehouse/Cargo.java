@@ -1,3 +1,4 @@
+package warehouse;
 public class Cargo {
     String name;
     String startPoint;

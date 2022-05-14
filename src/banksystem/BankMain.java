@@ -1,4 +1,4 @@
-package banksysem;
+package banksystem;
 import java.util.ArrayList;
 
 public class BankMain {
@@ -21,5 +21,7 @@ public class BankMain {
         // Person person = new Person(""," lastname", 3);
         Bank bank1 = new Bank("VTB", "Ulyanovsk", director);
         bank1.printInformation();
+        System.out.println();
+        
     }
 }

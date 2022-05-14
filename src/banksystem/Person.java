@@ -1,4 +1,4 @@
-package banksysem;
+package banksystem;
 public abstract class Person {
     String firstname;
     String lastname;

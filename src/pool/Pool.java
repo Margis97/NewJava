@@ -1,11 +1,16 @@
-package poolsystem;
+package pool;
+
+import banksystem.Bank;
+
 public class Pool {
     double length;
     double width;
+    Ball ball;
 
-    Pool(double length, double width) {
+    public Pool(double length, double width, Ball ball) {
         this.length = length;
         this.width = width;
+        this.ball = ball;
     }
 
     public void printSize() {
@@ -13,9 +18,9 @@ public class Pool {
     }
 
     public static void main(String[] args) {
-        Pool pool = new Pool(2.5, 1.5);
-        pool.printSize();
-        Ball ball = new Ball(0, 0);
+    	Ball ball = new Ball(0, 0);
+        Pool pool = new Pool(2.5, 1.5, ball);
+        pool.printSize();      
         ball.up();
         ball.down();
         ball.right();

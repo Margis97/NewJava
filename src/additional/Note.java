@@ -1,3 +1,4 @@
+package additional;
 public class Note {
 
     String text;

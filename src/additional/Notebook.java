@@ -1,3 +1,4 @@
+package additional;
 public class Notebook {
     Note[] notes = new Note[1000];
     int id = 0;

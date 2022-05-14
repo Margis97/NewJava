@@ -1,3 +1,4 @@
+package hotel;
 public class HotelWorker {
     String name;
     String surname;

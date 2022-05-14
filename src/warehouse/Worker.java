@@ -1,3 +1,4 @@
+package warehouse;
 public class Worker {
     String name;
     String surname;

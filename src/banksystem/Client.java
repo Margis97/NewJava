@@ -1,4 +1,4 @@
-package banksysem;
+package banksystem;
 
 public class Client extends Person {
 

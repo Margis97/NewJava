@@ -1,4 +1,4 @@
-package banksysem;
+package banksystem;
 
 public class Employee extends Person {
   
