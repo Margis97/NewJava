@@ -1,8 +1,5 @@
-<<<<<<< HEAD:src/additional/Number.java
 package additional;
-import java.io.*;
-=======
->>>>>>> 712cd7d6943db8d2bb41f3fd5f3790ddc6b8a335:src/Number.java
+
 import java.util.*;
 
 public class Number {
