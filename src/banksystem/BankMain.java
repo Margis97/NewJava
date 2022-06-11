@@ -8,20 +8,22 @@ public class BankMain {
         Employee employee = new Employee("Morozov", "Alexey", 50_000, 1);
         
         Bank bank = new Bank("Sberbank", "Moscow", director);
-        bank.whoIsDirector();
+//      bank.whoIsDirector();
         bank.printInformation();
-        bank.addEmployee("Morozov", "Alexey", 50_000, 1);
-        bank.addEmployee("Knazeva", "Sofia", 55_0000, 2);
-        //bank.employeesList  = new ArrayList<>();
-        //bank.employeesList.get(0).salary = -55_000;
-        bank.setNewSalary(1, -55_000);
-        bank.printEmployees();
-        bank.addClients("firstname", "lastname", 1);
+//      bank.addEmployee("Morozov", "Alexey", 50_000, 1);
+//      bank.addEmployee("Knazeva", "Sofia", 55_0000, 2);
+//      bank.employeesList  = new ArrayList<>();
+//      bank.employeesList.get(0).salary = -55_000;
+//      bank.setNewSalary(1, -55_000);
+//      bank.printEmployees();
+        bank.addClients("Client1", "Client1", 1);
         bank.printClients();
-        // Person person = new Person(""," lastname", 3);
-        Bank bank1 = new Bank("VTB", "Ulyanovsk", director);
-        bank1.printInformation();
-        System.out.println();
+//      Person person = new Person(""," lastname", 3);
+//      Bank bank1 = new Bank("VTB", "Ulyanovsk", director);
+//      bank1.printInformation();
+        bank.openAccount(0, 1, "40817810500001111111", 100);
+        bank.openCredit(0, 1, "40817810500001111112", 100);
+        bank.printAllAccounts();
         
     }
 }

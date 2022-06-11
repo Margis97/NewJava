@@ -10,6 +10,6 @@ public class Director extends Employee {
 
     @Override
     public void printInfo(){
-        System.out.println(firstname + " " + lastname + " " + getSalary());
+        System.out.println(firstname + " " + lastname + " " + getSalary()); 
     }
 }
